@@ -1,0 +1,2 @@
+A very basic Mandelbrot generator. To be used as an illustration of
+optimization techniques in Haskell.

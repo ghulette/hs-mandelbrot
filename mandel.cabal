@@ -1,0 +1,14 @@
+Name:           Mandelbrot
+Version:        0.2
+Cabal-Version:  >= 1.2
+License:        BSD3
+Author:         Geoff Hulette
+Synopsis:       A series of Mandelbrot implementations that explore some
+                different optimizations.
+Build-Type:     Simple
+  
+Executable mandel
+  Main-Is:        Main.hs
+  Hs-Source-Dirs: src
+  Build-Depends:  base >= 4,array,containers,mtl
+  GHC-Options:    -O2 -Wall
