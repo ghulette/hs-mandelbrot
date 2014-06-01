@@ -6,4 +6,4 @@ import Mandel
 main :: IO ()
 main = do
   n <- liftM (read . head) getArgs
-  writePng "mandel.png" $ mandelImage n 256
+  writePng "mandel.png" $ mandelImage n 512
